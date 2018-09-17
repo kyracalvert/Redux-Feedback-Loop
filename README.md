@@ -29,7 +29,7 @@ npm run client
 ### ADD NEW FEEDBACK
 
 - [ ] Use Redux to store data across views.
-- [ ] Create a 4-part form that allows users to leave feedback for today. 
+- [x] Create a 4-part form that allows users to leave feedback for today. 
 The parts:
 - [ ] How are you feeling today?
 ![feeling](wireframes/page-one.png)
