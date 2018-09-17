@@ -22,7 +22,8 @@ class CommentsComponent extends Component {
             data: dataToSend
         }).then((response) => {
             console.log('back from server with: ', response);
-            // changes view to success page
+            // is supposed to change view to success page
+            // is not functioning as expected
             this.props.history.push('/5');
         }).catch((error) => {
             console.log('error: ', error);

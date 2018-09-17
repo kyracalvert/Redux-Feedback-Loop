@@ -8,6 +8,6 @@ class Header extends Component {
             </div>
         );
     }
-}
+} // end component
 
 export default Header;
