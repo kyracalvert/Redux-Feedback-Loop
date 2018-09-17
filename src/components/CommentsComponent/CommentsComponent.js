@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Axios from 'axios';
+import axios from 'axios';
 
 class CommentsComponent extends Component {
 
@@ -16,7 +16,7 @@ class CommentsComponent extends Component {
     handleNextClick = (event) => {
         let dataToSend = this.props.reduxState.feedback;
         // sends object in feedback reducer to database
-        Axios({
+        axios({
             method: 'POST',
             url: '/feedback',
             data: dataToSend
