@@ -40,7 +40,7 @@ class AdminComponent extends Component {
             this.getFeedback();
         }).catch((error) => {
             console.log('error: ', error);
-            alert('there was an problem deleting the feedback');
+            alert('there was a problem deleting the feedback');
         })
     } // end deleteFeedback
 
