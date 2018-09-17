@@ -31,7 +31,7 @@ npm run client
 - [ ] Use Redux to store data across views.
 - [x] Create a 4-part form that allows users to leave feedback for today. 
 The parts:
-- [ ] How are you feeling today?
+- [x] How are you feeling today?
 ![feeling](wireframes/page-one.png)
 - [ ] How well are you understanding the content?
 ![understanding](wireframes/page-two.png)
