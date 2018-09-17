@@ -4,6 +4,8 @@ import './App.css';
 
 // import routes
 import Header from '../Header/Header.js';
+import FeelingComponent from '../FeelingComponent/FeelingComponent.js';
+import UnderstandingComponent from '../UnderstandingComponent/UnderstandingComponent.js';
 
 class App extends Component {
   render() {
