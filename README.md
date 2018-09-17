@@ -28,7 +28,7 @@ npm run client
 ## To-Do
 ### ADD NEW FEEDBACK
 
-- [ ] use Redux to store data across views.
+- [ ] Use Redux to store data across views.
 - [ ] Create a 4-part form that allows users to leave feedback for today. 
 The parts:
 - [ ] How are you feeling today?
@@ -57,6 +57,7 @@ Logic
 ![display feedback](wireframes/admin.png)
 
 ## Next Steps
+
 - [ ] Improve the styling of the app using Material-UI theme, cards, snackbars, buttons, nav bar, and icons.
 - [ ] Add the ability to flag an existing feedback entry for further review on the /admin view
 - [ ] Deploy to Heroku -- will need to read the special instructions for building and deploying with these apps.
